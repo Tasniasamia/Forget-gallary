@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Document</title>
+    <style>
+        /*practice-1-css*/
+        .class{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+           gap:5px;
+        }
+        .class div img{
+            height: 100%;
+            width: 100%;;
+        }
+        .div2{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap:5px;
+        }
+        .div2 img{
+            height: 100%;
+            width: 100%;
+        }
+        /*practice-2*/
+        .class1{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+           gap:5px;
+        }
+        .class1 div img{
+            height: 100%;
+            width: 100%;;
+        }
+        .class1 .div22 {
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+          gap:5px;
+        }
+        .class1 .div22 img{
+            height:calc((303px / 2) - 5px);
+        }
+
+    </style>
+</head>
+<body>
+    <!--practice-1-->
+    <div class="class">
+        <div >
+            <img src="images/image-s1.png" alt="">
+        </div>
+        <div ><img src="images/image-s2.png" alt=""></div>
+        <div ><img src="images/image-s3.png" alt=""></div>
+        <div class="div2">
+            <img src="images/image-s4.png" alt="">
+            <img src="images/image-s4.png" alt="">
+            <img src="images/image-s4.png" alt="">
+            <img src="images/image-s4.png" alt="">
+           
+        </div>
+        <div ><img src="images/image-s5.png" alt=""></div>
+        <div ><img src="images/image-s6.png" alt=""></div>
+    </div>
+    <!--practice-2-->
+    <div class="class1">
+        <div >
+            <img src="images/image-s1.png" alt="">
+        </div>
+        <div ><img src="images/image-s2.png" alt=""></div>
+        <div ><img src="images/image-s3.png" alt=""></div>
+        <div class="div22">
+            <img src="images/image-s4.png" alt="">
+            <img src="images/image-s4.png" alt="">
+           
+        </div>
+        <div ><img src="images/image-s5.png" alt=""></div>
+        <div ><img src="images/image-s6.png" alt=""></div>
+    </div>
+</body>
+</html>
